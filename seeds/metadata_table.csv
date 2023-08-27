@@ -1,0 +1,6 @@
+Source_Table,Source_Schema,Target_Table,Target_Schema,Transform_Logic,Load_Frequency
+customers,prod,customers_clean,analytics,"upper(last_name)",daily
+orders,prod,orders_clean,analytics,"convert_to_usd(amount)",daily
+payments,prod,payments_clean,analytics,"amount * 1.1",daily 
+products,prod,products_clean,analytics,"",weekly
+sales,prod,sales_clean,analytics,"convert_to_date(saledate)",daily
