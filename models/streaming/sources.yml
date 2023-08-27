@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stream_source
+    database: VHOL_ENG_CDC
+    schema: ENG
+    tables:
+      - name: CDC_STREAMING_TABLE

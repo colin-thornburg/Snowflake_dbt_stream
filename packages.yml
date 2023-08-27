@@ -1,0 +1,3 @@
+packages:
+  - package: arnoN7/incr_stream
+    version: 1.0.2
